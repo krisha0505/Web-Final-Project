@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Menu - Lunar Sips by Krisha</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .menu-section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+      background-color: #fffef9;
+      border-radius: 10px;
+    }
+
+    .menu-section h1,
+    .menu-section h2 {
+      text-align: center;
+      color: #4b2e2e;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .menu-item {
+      background: #4e55f9;
+      box-shadow: 0 14px 30px #6575ffcc;
+      transform: translateY(-3px);
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.15s ease-in-out;
+    }
+
+    .menu-item:hover {
+      transform: scale(1.03);
+    }
+
+    .menu-item img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      cursor: pointer;
+      display: block;
+    }
+
+    .menu-item h3 {
+      margin: 0.5rem 0 0.2rem;
+      font-size: 1.1rem;
+      color: #3b2c2c;
+    }
+
+    .menu-item h3 a {
+      color: #3b2c2c;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .menu-item h3 a:hover {
+      text-decoration: underline;
+      color: #b36b00;
+    }
+
+    .menu-item p {
+      color: #888;
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #333;
+      color: #4e55f9;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      list-style: none;
+      padding: 1rem 0;
+      background-color: #90caf9;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .active {
+      font-weight: bold;
+      color: #b36b00;
+    }
+
+    header .logo {
+      text-align: center;
+      font-size: 2rem;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Lunar Sips by Krisha</div>
+    <nav>
+      <ul>
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="mission.html">Mission & Vision</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="faqs.html">FAQs</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="profile.html">Designer</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="menu.html">Menu</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="Menu-section">
+      <h1>Our Signature Menu</h1>
+
+      <h2>Signatur Coffee</h2>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <a href="menu-details/espresso.html">
+            <img src="C:\Users\RUSSEL KIM\Desktop\KM\cb10e87f-132f-4bdb-8961-b4c3a3b61eec.jpg" alt="Espresso" />
+          </a>
+          <h3><a href="menu-details/espresso.html">Lunar Latte</a></h3>
+          <p>₱215</p>
+        </div>
+        <div class="menu-item">
+          <a href="menu-details/americano.html">
+            <img src="C:\Users\RUSSEL KIM\Desktop\KM\moonlight.jpg" alt="Americano" />
+          </a>
+          <h3><a href="menu-details/americano.html">Celestial Capaccino</a></h3>
+          <p>₱215</p>
+        </div>
+        <div class="menu-item">
+          <a href="menu-details/latte.html">
+            <img src="C:\Users\RUSSEL KIM\Desktop\KM\770ef830-3e04-40dc-bda3-6e5c1ed3ca1d.jpg" alt="Latte" />
+          </a>
+          <h3><a href="menu-details/latte.html">Luminous Cold Brew</a></h3>
+          <p>₱215</p>
+        </div>
+        <div class="menu-item">
+          <a href="menu-details/mocha.html">
+            <img src="C:\Users\RUSSEL KIM\Desktop\KM\sunlight.jpg" alt="Mocha" />
+          </a>
+          <h3><a href="menu-details/mocha.html">Moonlight Mocha</a></h3>
+          <p>₱215</p>
+        </div>
+        <div class="menu-item">
+          <a href="menu-details/macchiato.html">
+            <img src="C:\Users\RUSSEL KIM\Desktop\KM\4fd28a7a-8ad8-478a-9c72-f24d4d543a90.jpg" alt="Caramel Macchiato" />
+          </a>
+          <h3><a href="menu-details/macchiato.html">Stellar Macchiato</a></h3>
+          <p>₱215</p>
+        </div>
+        <div class="menu-item">
+          <a href="menu-details/coldbrew.html">
+            <img src="C:\Users\RUSSEL KIM\Pictures\Screenshots\Screenshot 2025-05-26 113538.png" alt="Cold Brew" />
+          </a>
+          <h3><a href="menu-details/coldbrew.html">Eclipse Affogato</a></h3>
+          <p>₱200</p>
+        </div>
+      </div>
+
+      <h2 style="margin-top:3rem;">Non-Coffee</h2>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <a href="menu-details/matcha.html">
+            <img src="C:\Users\RUSSEL KIM\Desktop\KM\2f210f99-850e-459d-8f2f-bb0e3a442039.jpg" alt="Matcha Latte" />
+          </a>
+          <h3><a href="menu-details/matcha.htmlA">Galaxy Hot Choco</a></h3>
+          <p>₱215</p>
+        </div>
+        <div class="menu-item">
+          <a href="menu-details/hotchoco.html">
+            <img src="C:\Users\RUSSEL KIM\Desktop\KM\96a49883-8bff-4dd7-a2ee-87389c3747d5.jpg" alt="Hot Chocolate" />
+          </a>
+          <h3><a href="menu-details/hotchoco.html">Aurora Eclipse Espresso</a></h3>
+          <p>₱215</p>
+        </div>
+        <div class="menu-item">
+          <a href="menu-details/chai.html">
+            <img src="C:\Users\RUSSEL KIM\Desktop\KM\ce92d2a9-c1f3-4db5-8978-52f2652c3b6a.jpg" alt="Chai Tea Latte" />
+          </a>
+          <h3><a href="menu-details/chai.html">Galaxy Choco</a></h3>
+          <p>₱215</p>
+        </div>
+        <div class="menu-item">
+          <a href="menu-details/peachtea.html">
+            <img src="C:\Users\RUSSEL KIM\Desktop\KM\galaxy.jpg" alt="Peach Iced Tea" />
+          </a>
+          <h3><a href="menu-details/peachtea.html">Lunar Eclipse Espresso</a></h3>
+          <p>₱215</p>
+        </div>
+        <div class="menu-item">
+          <a href="menu-details/lemontea.html">
+            <img src="C:\Users\RUSSEL KIM\Desktop\KM\cupcake.jpg" alt="Lemon Iced Tea" />
+          </a>
+          <h3><a href="menu-details/lemontea.html">Nebula Cheesecake Bites</a></h3>
+          <p>₱130</p>
+        </div>
+        <div class="menu-item">
+          <a href="menu-details/banana.html">
+            <img src="C:\Users\RUSSEL KIM\Desktop\KM\fita.jpg" alt="Banana Smoothie" />
+          </a>
+          <h3><a href="menu-details/banana.html">Moondust Cookies</a></h3>
+          <p>₱130</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Lunar Coffee. All rights reserved.</p>
+  </footer>
+
+</body>
+</html> layout is right but color is not 
